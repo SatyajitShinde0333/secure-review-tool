@@ -1,16 +1,3 @@
-[![checkov](https://raw.githubusercontent.com/bridgecrewio/checkov/main/docs/web/images/checkov_blue_logo.png)](#)
-       
-[![Maintained by Prisma Cloud](https://img.shields.io/badge/maintained_by-Prisma_Cloud-blue)](https://prismacloud.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=checkov)
-[![build status](https://github.com/bridgecrewio/checkov/workflows/build/badge.svg)](https://github.com/bridgecrewio/checkov/actions?query=workflow%3Abuild)
-[![security status](https://github.com/bridgecrewio/checkov/workflows/security/badge.svg)](https://github.com/bridgecrewio/checkov/actions?query=event%3Apush+branch%3Amaster+workflow%3Asecurity)
-[![code_coverage](https://raw.githubusercontent.com/bridgecrewio/checkov/main/coverage.svg?sanitize=true)](https://github.com/bridgecrewio/checkov/actions?query=workflow%3Acoverage)
-[![docs](https://img.shields.io/badge/docs-passing-brightgreen)](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html?utm_source=github&utm_medium=organic_oss&utm_campaign=checkov)
-[![PyPI](https://img.shields.io/pypi/v/checkov)](https://pypi.org/project/checkov/)
-[![Python Version](https://img.shields.io/pypi/pyversions/checkov)](#)
-[![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.12.0-blue.svg)](#)
-[![Downloads](https://static.pepy.tech/badge/checkov)](https://pepy.tech/project/checkov)
-[![Docker Pulls](https://img.shields.io/docker/pulls/bridgecrew/checkov.svg)](https://hub.docker.com/r/bridgecrew/checkov)
-[![slack-community](https://img.shields.io/badge/Slack-4A154B?style=plastic&logo=slack&logoColor=white)](https://codifiedsecurity.slack.com/)
 
 
 **Checkov** is a static code analysis tool for infrastructure as code (IaC) and also a software composition analysis (SCA) tool for images and open source packages.
@@ -473,7 +460,7 @@ Defaults:
   --evaluate-variables:True
 ```
 
-## Contributing
+<!-- ## Contributing
 
 Contribution is welcomed!
 
@@ -483,7 +470,7 @@ You can even start this with one-click dev in your browser through Gitpod at the
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/bridgecrewio/checkov)
 
-Looking to contribute new checks? Learn how to write a new check (AKA policy) [here](https://github.com/bridgecrewio/checkov/blob/main/docs/6.Contribution/Contribution%20Overview.md).
+Looking to contribute new checks? Learn how to write a new check (AKA policy) [here](https://github.com/bridgecrewio/checkov/blob/main/docs/6.Contribution/Contribution%20Overview.md). -->
 
 ## Disclaimer
 `checkov` does not save, publish or share with anyone any identifiable customer information.  
