@@ -2,6 +2,37 @@
 
 **Checkov** is a static code analysis tool for infrastructure as code (IaC) and also a software composition analysis (SCA) tool for images and open source packages.
 
+checkov --directory ./terraform
+✅ 2. Parsing & Graph Creation
+
+Parses .tf files.
+
+Builds a resource dependency graph.
+
+✅ 3. Policy Evaluation
+
+Applies all relevant checks.
+
+Assigns severity/confidence.
+
+✅ 4. Variable Resolution
+
+Resolves Terraform variables from defaults, tfvars, or env.
+
+✅ 5. SCA Scanning
+
+Scans dependencies and Docker images for CVEs.
+
+✅ 6. Suppression & Filtering
+
+Inline suppression via annotations.
+
+CLI filtering (--skip-check).
+
+✅ 7. Reporting
+
+Outputs results as CLI summary, JSON, SARIF, etc.
+
 It scans cloud infrastructure provisioned using [Terraform](https://terraform.io/), [Terraform plan](https://github.com/bridgecrewio/checkov/blob/main/docs/7.Scan%20Examples/Terraform%20Plan%20Scanning.md), [Cloudformation](https://github.com/bridgecrewio/checkov/blob/main/docs/7.Scan%20Examples/Cloudformation.md), [AWS SAM](https://github.com/bridgecrewio/checkov/blob/main/docs/7.Scan%20Examples/AWS%20SAM.md), [Kubernetes](https://github.com/bridgecrewio/checkov/blob/main/docs/7.Scan%20Examples/Kubernetes.md), [Helm charts](https://github.com/bridgecrewio/checkov/blob/main/docs/7.Scan%20Examples/Helm.md), [Kustomize](https://github.com/bridgecrewio/checkov/blob/main/docs/7.Scan%20Examples/Kustomize.md), [Dockerfile](https://github.com/bridgecrewio/checkov/blob/main/docs/7.Scan%20Examples/Dockerfile.md),  [Serverless](https://github.com/bridgecrewio/checkov/blob/main/docs/7.Scan%20Examples/Serverless%20Framework.md), [Bicep](https://github.com/bridgecrewio/checkov/blob/main/docs/7.Scan%20Examples/Bicep.md), [OpenAPI](https://github.com/bridgecrewio/checkov/blob/main/docs/7.Scan%20Examples/OpenAPI.md), [ARM Templates](https://github.com/bridgecrewio/checkov/blob/main/docs/7.Scan%20Examples/Azure%20ARM%20templates.md), or [OpenTofu](https://opentofu.org/) and detects security and compliance misconfigurations using graph-based scanning.
 
 It performs [Software Composition Analysis (SCA) scanning](docs/7.Scan%20Examples/Sca.md) which is a scan of open source packages and images for Common Vulnerabilities and Exposures (CVEs).
@@ -16,6 +47,8 @@ Checkov also powers [**Prisma Cloud Application Security**](https://www.prismacl
 <a href="https://docs.prismacloud.io/en/enterprise-edition/use-cases/secure-the-source/secure-the-source" title="Docs">
     <img src="https://dabuttonfactory.com/button.png?t=Read+the+Docs&f=Open+Sans-Bold&ts=26&tc=fff&hp=45&vp=20&c=round&bgt=unicolored&bgc=00c0e8" align="right" width="120">
 </a>
+
+
 
 ## **Table of contents**
 
