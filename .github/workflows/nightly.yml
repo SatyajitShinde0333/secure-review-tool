@@ -48,7 +48,7 @@ jobs:
           toTag: ${{ steps.prepare_release.outputs.version }}
       - name: Create GitHub Release
         if: steps.build_github_release.outputs.changelog != ''
-        uses: softprops/action-gh-release@da05d552573ad5aba039eaac05058a918a7bf631  # v2.2.2
+        uses: softprops/action-gh-release@6cbd405e2c4e67a21c47fa9e383d020e4e28b836  # v2.3.3
         id: create_github_release
         with:
           tag_name: ${{ steps.prepare_release.outputs.version }}
